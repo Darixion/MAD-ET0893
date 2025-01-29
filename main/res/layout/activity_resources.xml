@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+  <!-- Emergency Cases -->
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="For emergency cases Please call"
+      android:textSize="18sp"
+      android:textColor="@android:color/black"
+      android:textStyle="bold"
+      android:paddingBottom="4dp"/>
+
+  <TextView
+      android:id="@+id/txt_emergency"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="995"
+      android:textSize="20sp"
+      android:textColor="@android:color/holo_red_dark"
+      android:textStyle="bold"
+      android:clickable="true"
+      android:paddingBottom="16dp"/>
+
+  <!-- Non-Emergency Cases -->
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="For non-emergency cases Please call"
+      android:textSize="18sp"
+      android:textColor="@android:color/black"
+      android:textStyle="bold"
+      android:paddingBottom="4dp"/>
+
+  <TextView
+      android:id="@+id/txt_non_emergency"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="1777"
+      android:textSize="20sp"
+      android:textColor="@android:color/holo_blue_dark"
+      android:textStyle="bold"
+      android:clickable="true"/>
+
+</LinearLayout>
