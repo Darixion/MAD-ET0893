@@ -24,8 +24,16 @@
         <activity
             android:name=".bleeding"
             android:exported="false" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDCONeMjIu1TEHXb7VepeJ5tvsRcMeQQno" />
+
         <activity
-            android:name=".activity_additionalresources"
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".activity_resources"
             android:exported="false" />
         <activity
             android:name=".Splash"
