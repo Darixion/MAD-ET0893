@@ -17,6 +17,8 @@
             android:layout_height="wrap_content"
             android:text="FRACTURE"
             android:textSize="34sp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
             android:textStyle="bold" />
     </LinearLayout>
 
