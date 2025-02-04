@@ -17,6 +17,8 @@
             android:layout_height="wrap_content"
             android:text="CHOKING"
             android:textSize="34sp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
             android:textStyle="bold" />
 
         <TextView
@@ -26,12 +28,16 @@
             android:text="Partial Choking (Mild Airway Obstruction)"
             android:textAlignment="center"
             android:textSize="16sp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
             android:text="Description: The airway is partially blocked, but the person can still cough, breathe, or speak. Symptoms include difficulty breathing, wheezing, or coughing. Encouraging the person to continue coughing can help clear the obstruction." />
 
         <LinearLayout
@@ -46,12 +52,16 @@
                 android:text="Complete Choking (Severe Airway Obstruction)"
                 android:textAlignment="center"
                 android:textSize="16sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
                 android:text="Description: The airway is fully blocked, preventing the person from breathing, coughing, or speaking. Signs include clutching the throat (universal choking sign), silent struggling, or turning blue. This is a medical emergency requiring the Heimlich maneuver or immediate first aid." />
         </LinearLayout>
     </LinearLayout>
