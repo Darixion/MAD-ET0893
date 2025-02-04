@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:padding="10dp"
         tools:ignore="MissingConstraints">
 
         <ImageView
@@ -17,6 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/firstaidkit"
+            android:padding="10dp"
             tools:srcCompat="@drawable/firstaidkit" />
 
         <TextView
@@ -29,11 +31,13 @@
             android:text="First Aider"
             android:textAlignment="center"
             android:textSize="34sp"
+            android:padding="10dp"
             android:textStyle="bold|italic" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="10dp"
             android:orientation="horizontal">
 
             <TextView
@@ -50,22 +54,26 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:padding="10dp"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/btn_acs"
+                style="@android:style/Widget.Material.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ACCESSING INJURIES" />
 
             <Button
                 android:id="@+id/btn_nrby"
+                style="@android:style/Widget.Material.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="NEARBY HOSPITALS/CLINICS" />
 
             <Button
                 android:id="@+id/btn_addi"
+                style="@android:style/Widget.Material.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ADDITIONIAL RESOURCES" />
