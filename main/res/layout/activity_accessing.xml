@@ -15,6 +15,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -54,6 +56,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -93,6 +97,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
             android:orientation="horizontal">
 
             <ImageView
@@ -131,6 +137,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
             android:orientation="horizontal">
 
             <ImageView
