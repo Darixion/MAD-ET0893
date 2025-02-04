@@ -20,6 +20,14 @@
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
             android:textStyle="bold" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"/>
+        
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
