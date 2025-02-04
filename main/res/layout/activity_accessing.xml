@@ -18,6 +18,7 @@
             android:layout_weight="1"
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
+            android:clickable="true"
             android:orientation="horizontal">
 
             <ImageView
@@ -59,6 +60,7 @@
             android:layout_weight="1"
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
+            android:clickable="true"
             android:orientation="horizontal">
 
             <ImageView
@@ -100,6 +102,7 @@
             android:layout_weight="1"
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
+            android:clickable="true"
             android:orientation="horizontal">
 
             <ImageView
@@ -141,6 +144,7 @@
             android:layout_weight="1"
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
+            android:clickable="true"
             android:orientation="horizontal">
 
             <ImageView
