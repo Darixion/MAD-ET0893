@@ -9,6 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
         android:orientation="vertical"
         android:padding="10dp"
         android:layout_marginStart="20dp"
@@ -21,8 +22,8 @@
             android:id="@+id/imageView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/firstaidkit"
             android:padding="10dp"
+            android:src="@drawable/firstaidkit"
             tools:srcCompat="@drawable/firstaidkit" />
 
         <TextView
@@ -31,55 +32,61 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="30dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/anton"
+            android:padding="10dp"
             android:text="First Aider"
             android:textAlignment="center"
             android:textSize="34sp"
-            android:padding="10dp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="10dp">
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:fontFamily="@font/anton"
                 android:text="How May I Help You Today?"
                 android:textAlignment="center"
-                android:textSize="34sp"
-                android:textStyle="bold" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="20dp">
 
             <Button
                 android:id="@+id/btn_acs"
-                style="@android:style/Widget.Material.Button"
+                style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:text="ACCESSING INJURIES" />
 
             <Button
                 android:id="@+id/btn_nrby"
-                style="@android:style/Widget.Material.Button"
+                style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:text="NEARBY HOSPITALS/CLINICS" />
 
             <Button
                 android:id="@+id/btn_addi"
-                style="@android:style/Widget.Material.Button"
+                style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:text="ADDITIONIAL RESOURCES" />
         </LinearLayout>
 
