@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/cut_card_background"
-    tools:context="com.example.miniprojects.activity_accessing">
+    tools:context=".activity_accessing">
 
     <TextView
         android:id="@+id/textView"
