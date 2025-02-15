@@ -11,22 +11,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
         android:background="#00FFFFFF"
         android:orientation="vertical"
         android:padding="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/imageView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:src="@drawable/firstaidkit"
-            tools:srcCompat="@drawable/firstaidkit" />
+            android:adjustViewBounds="true"
+            android:maxWidth="200dp"
+            android:maxHeight="200dp"
+            android:src="@drawable/first_aider_logo"
+            android:scaleType="fitCenter" />
 
         <TextView
             android:id="@+id/textView4"
@@ -34,12 +34,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="30dp"
-            android:fontFamily="sans-serif"
+            android:fontFamily="@font/anton"
             android:padding="10dp"
             android:text="First Aider"
             android:textAlignment="center"
             android:textSize="34sp"
-            android:textStyle="bold|italic" />
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,45 +52,44 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:padding="10dp"
+                android:fontFamily="@font/anton"
                 android:text="How May I Help You Today?"
                 android:textAlignment="center"
-                android:textSize="34sp"
-                android:textStyle="bold" />
+                android:textSize="34sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="10dp">
+            android:padding="20dp">
 
             <Button
                 android:id="@+id/btn_acs"
+                style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#03A9F4"
-                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:text="ACCESSING INJURIES" />
-
 
             <Button
                 android:id="@+id/btn_nrby"
+                style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#03A9F4"
-                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:text="NEARBY HOSPITALS/CLINICS" />
-
 
             <Button
                 android:id="@+id/btn_addi"
+                style="@style/Widget.Material3.Button.ElevatedButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#03A9F4"
-                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:text="ADDITIONIAL RESOURCES" />
-
         </LinearLayout>
 
     </LinearLayout>
