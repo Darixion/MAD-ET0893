@@ -7,93 +7,62 @@
     tools:context=".bleeding">
 
     <ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/anton"
-            android:paddingHorizontal="10dp"
-            android:paddingVertical="10dp"
-            android:text="BLEEDING"
-            android:textSize="34sp" />
-
-        <WebView
-            android:id="@+id/webView"
-            android:layout_width="match_parent"
-            android:layout_height="250sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"/>
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:text="Arterial Bleeding"
-            android:textAlignment="center"
-            android:textSize="16sp"
-            android:paddingHorizontal="10dp"
-            android:paddingVertical="10dp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/arterial_bleeding"
-            tools:srcCompat="@drawable/arterial_bleeding" />
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingHorizontal="10dp"
-            android:paddingVertical="10dp"
-            android:text="Description: This is the most serious type of bleeding, where blood spurts out rhythmically in bright red color due to high pressure from the arteries. It can lead to rapid blood loss and requires immediate medical attention." />
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-53dp"
+        tools:layout_editor_absoluteY="-142dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView18"
-                android:layout_width="match_parent"
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Venous Bleeding"
-                android:textAlignment="center"
-                android:textSize="16sp"
                 android:paddingHorizontal="10dp"
                 android:paddingVertical="10dp"
+                android:text="BLEEDING"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="250sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:text="Arterial Bleeding"
+                android:textAlignment="center"
+                android:textSize="16sp"
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/venous_bleeding"
-                tools:srcCompat="@drawable/venous_bleeding" />
+                android:src="@drawable/arterial_bleeding"
+                tools:srcCompat="@drawable/arterial_bleeding" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingHorizontal="10dp"
                 android:paddingVertical="10dp"
-                android:text="Description: Blood flows steadily and is dark red in color due to lower pressure in veins. While not as forceful as arterial bleeding, it can still lead to significant blood loss if not controlled." />
+                android:text="Description: This is the most serious type of bleeding, where blood spurts out rhythmically in bright red color due to high pressure from the arteries. It can lead to rapid blood loss and requires immediate medical attention." />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -101,33 +70,64 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView20"
+                    android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Capillary Bleeding"
-                    android:textAlignment="center"
-                    android:textSize="16sp"
                     android:paddingHorizontal="10dp"
                     android:paddingVertical="10dp"
+                    android:text="Venous Bleeding"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
                     android:textStyle="bold" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/imageView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/capillary_bleeding"
-                    tools:srcCompat="@drawable/capillary_bleeding" />
+                    android:src="@drawable/venous_bleeding"
+                    tools:srcCompat="@drawable/venous_bleeding" />
 
                 <TextView
-                    android:id="@+id/textView21"
+                    android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingHorizontal="10dp"
                     android:paddingVertical="10dp"
-                    android:text="Description: This is the most common and least severe type, where blood oozes slowly from the small capillaries. It usually stops on its own or with minor first aid." />
+                    android:text="Description: Blood flows steadily and is dark red in color due to lower pressure in veins. While not as forceful as arterial bleeding, it can still lead to significant blood loss if not controlled." />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="10dp"
+                        android:text="Capillary Bleeding"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/capillary_bleeding"
+                        tools:srcCompat="@drawable/capillary_bleeding" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="10dp"
+                        android:text="Description: This is the most common and least severe type, where blood oozes slowly from the small capillaries. It usually stops on its own or with minor first aid." />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

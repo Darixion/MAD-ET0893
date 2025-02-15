@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFF00"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
 
 
@@ -19,13 +19,14 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:maxWidth="200dp"
             android:maxHeight="200dp"
-            android:src="@drawable/first_aider_logo"
+            android:src="@drawable/firstaidkit"
+            tools:srcCompat="@drawable/firstaidkit"
             android:scaleType="fitCenter" />
 
         <TextView
@@ -34,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="30dp"
-            android:fontFamily="@font/anton"
+            android:fontFamily="sans-serif"
             android:padding="10dp"
             android:text="First Aider"
             android:textAlignment="center"
@@ -52,7 +53,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="@font/anton"
                 android:text="How May I Help You Today?"
                 android:textAlignment="center"
                 android:textSize="34sp" />
@@ -73,6 +73,7 @@
                 android:layout_marginBottom="5dp"
                 android:text="ACCESSING INJURIES" />
 
+
             <Button
                 android:id="@+id/btn_nrby"
                 style="@style/Widget.Material3.Button.ElevatedButton"
@@ -82,6 +83,7 @@
                 android:layout_marginBottom="5dp"
                 android:text="NEARBY HOSPITALS/CLINICS" />
 
+
             <Button
                 android:id="@+id/btn_addi"
                 style="@style/Widget.Material3.Button.ElevatedButton"
@@ -90,6 +92,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:text="ADDITIONIAL RESOURCES" />
+
         </LinearLayout>
 
     </LinearLayout>
