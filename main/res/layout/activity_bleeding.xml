@@ -13,30 +13,35 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BLEEDING"
-            android:textSize="34sp"
+            android:fontFamily="@font/anton"
             android:paddingHorizontal="10dp"
             android:paddingVertical="10dp"
-            android:textStyle="bold" />
+            android:text="BLEEDING"
+            android:textSize="34sp" />
 
         <WebView
             android:id="@+id/webView"
             android:layout_width="match_parent"
             android:layout_height="250sp"
-            android:paddingHorizontal="10dp"
-            android:paddingVertical="10dp"/>
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:text="Arterial Bleeding"
             android:textAlignment="center"
             android:textSize="16sp"
