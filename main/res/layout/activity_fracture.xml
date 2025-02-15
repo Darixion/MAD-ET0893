@@ -7,10 +7,9 @@
     tools:context=".fracture">
 
     <ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
-        
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -31,8 +30,100 @@
             android:layout_width="match_parent"
             android:layout_height="250sp"
             android:paddingHorizontal="10dp"
-            android:paddingVertical="10dp"/>
-        
+            android:paddingVertical="10dp" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Closed (Simple) Fracture"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/closefracture"
+            tools:srcCompat="@drawable/closefracture" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="A fracture where the bone breaks but does not penetrate the skin. Commonly caused by falls, trauma, or direct impact." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open (Compound) Fracture"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/openfracture"
+                tools:srcCompat="@drawable/openfracture" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="10dp"
+                android:text="A fracture where the broken bone pierces through the skin, increasing the risk of infection. Usually results from high-impact injuries like car accidents or severe falls." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Greenstick Fracture"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="10dp"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/greenstickfracture"
+                    tools:srcCompat="@drawable/greenstickfracture" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="10dp"
+                    android:text="A partial fracture where the bone bends and cracks but does not break completely. Common in children due to their softer and more flexible bones." />
+            </LinearLayout>
+
+        </LinearLayout>
+
     </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
